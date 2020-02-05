@@ -1,0 +1,13 @@
+Crie um carrinho de compras
+    Esse carrinho possui produtos
+    Total de Itens
+    Preço Total
+    Total de Descontos
+
+Nesse carrinho posso adicionar produtos. Cada produto possui:
+    Nome
+    Preço
+    Valor Desconto
+
+Adicione pelo menos 3 produtos no carrinho, POREM, dessa vez posso informar a quantidade de cada produto.
+Ao final exiba o total de itens, valor total carrinho e o valor total de descontos
