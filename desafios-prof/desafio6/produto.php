@@ -2,11 +2,13 @@
 
 class Produto{
     private $nome;
-    private $valor;    
+    private $valor;
+    private $valorDesconto;
     
-    public function __construct($nome, $valor){
+    public function __construct($nome, $valor, $valorDesconto){
         $this->nome = $nome;
         $this->valor = $valor;
+        $this->valorDesconto = $valorDesconto;
     }
 
     public function getNome(){
@@ -15,6 +17,10 @@ class Produto{
 
     public function getValor(){
         return $this->valor;
+    }
+
+    public function getValorDesconto(){
+        return $this->valorDesconto;
     }
 }
 
